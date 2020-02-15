@@ -1,0 +1,18 @@
+body {
+        background-color: #FFF7E0;
+}
+
+h1 {
+        color: #764999;
+        font-family: acier-bat-noir, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+}
+
+p {
+        color: #401201;
+        font-family: bureau-grot-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
