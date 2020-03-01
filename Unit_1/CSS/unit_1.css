@@ -5,7 +5,8 @@ body {
 h1 {
         color: #764999;
         font-family: acier-bat-noir, sans-serif;
-        font-weight: 400;
+        font-size: 40 px;
+        font-weight: normal;
         font-style: normal;
         text-align: center;
 }
@@ -13,6 +14,7 @@ h1 {
 p {
         color: #401201;
         font-family: bureau-grot-condensed, sans-serif;
-        font-weight: 400;
+        font-size: 18 px;
         font-style: normal;
+        text-align: center;
 }
