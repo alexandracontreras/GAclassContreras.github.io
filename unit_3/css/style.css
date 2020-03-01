@@ -1,0 +1,56 @@
+body {
+        background-color: #FFFFFF;
+}
+
+h1 {
+        color: #764999;
+        font-family: acier-bat-noir, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 80px;
+        position: relative;
+        top: 50px;
+}
+
+p {
+        color: #401201;
+        font-family: bureau-grot-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+}
+img {
+        height: 15%;
+        width: 10%;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+}
+li {
+        color: #401201;
+        font-family: bureau-grot-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        list-style-type: none;
+}
+#work{
+        position: absolute;
+        top: 30px;
+        right: 190px;
+}
+#about {
+        position: absolute;
+        top: 30px;
+        right: 100px;
+}
+#contact {
+        position: absolute;
+        top: 30px;
+        right: 10px;
+}
+#slogan {
+        font-style: italic;
+        font-size: 40px;
+}
