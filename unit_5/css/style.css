@@ -1,0 +1,78 @@
+body {
+        background-color: #FFFFFF;
+}
+
+h1 {
+        color: #764999;
+        font-family: acier-bat-noir, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 80px;
+        position: relative;
+        top: 80px;
+}
+
+p {
+        color: #000;
+        font-family: bureau-grot-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+}
+img {
+        height: 15%;
+        width: 10%;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+}
+li {
+        color: #000;
+        font-family: bureau-grot-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        list-style-type: none;
+}
+#work{
+        position: absolute;
+        top: 30px;
+        right: 190px;
+}
+#about {
+        position: absolute;
+        top: 30px;
+        right: 120px;
+}
+#contact {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+}
+#explainer {
+        position: relative;
+        top: 10px;
+}
+.tax {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+header {
+        background-color: #FFED74;
+}
+nav {
+        background-color: #E8C66A
+}
+article {
+        background-color: #E89C6C;
+}
+footer {
+        background-color: #FF957E
+}
