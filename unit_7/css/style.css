@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 body {
         background-color: #FFFFFF;
@@ -24,7 +25,7 @@ p {
 }
 .logo {
         float:top right;
-        width: 140px;
+        width: 8%;
 }
 nav {
     text-decoration: none;
@@ -42,14 +43,17 @@ nav {
   border: 2px solid black;
   text-align: center;
   padding: 10px 20px;
-  margin: 4px 4px 4px 4px;
-  width: 50%;
+  margin: 1em;
+  width: 100%;
 }
-#portfolio {
-    margin: 0 5% 0 5%;
+#left {
     float: left;
+    width: 48%;
 }
-
+#right {
+    float: right;
+    width: 48%;
+}
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -63,4 +67,19 @@ nav {
 }
 footer {
     clear: both;
+}
+@ media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .logo {
+    width: 10%;
+  }
+  #portfolio {
+    float: left;
+    width: 100%;
+  }
 }
