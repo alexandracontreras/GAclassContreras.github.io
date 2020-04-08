@@ -6,8 +6,8 @@ body {
         background-color: #FFFFFF;
         font-family: bureau-grot-condensed, sans-serif;
         font-size: 20px;
+        margin: 0.6%;
 }
-
 h1 {
         color: #764999;
         font-family: acier-bat-noir, sans-serif;
@@ -15,7 +15,7 @@ h1 {
         font-style: normal;
         text-align: center;
         font-size: 80px;
-        float: top;
+        margin: 0.2em;
 }
 p {
         color: #000000;
@@ -28,31 +28,35 @@ p {
         width: 8%;
 }
 nav {
-    text-decoration: none;
     float: right;
     color: #000000;
-    word-spacing: 40px;
-    margin: 1.5em;
+    word-spacing: 500%;
+    margin: 2.2%;
 }
-#explainer {
-        float: top;
-        margin-bottom: 20px;
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #764999;
 }
 .container {
   background-color: #FFF;
   border: 2px solid black;
   text-align: center;
-  padding: 10px 20px;
-  margin: 1em;
+  padding: 2% 2%;
+  margin: 2.2%;
   width: 100%;
 }
 #left {
     float: left;
-    width: 48%;
+    width: 45%;
+    margin-left: 2.6%;
 }
 #right {
-    float: right;
-    width: 48%;
+    float: left;
+    width: 45%;
+    margin: 0 0 0 2.2%;
 }
 .clearfix:after {
   visibility: hidden;
@@ -68,18 +72,18 @@ nav {
 footer {
     clear: both;
 }
-@ media only screen and (max-width: 600px) {
+#about {
+  margin: 10% 10% 5% 10%;
+}
+@media (max-width: 800px) {
   body {
     font-size: 16px;
   }
   h1 {
     font-size: 60px;
-  }
-  .logo {
-    width: 10%;
-  }
-  #portfolio {
-    float: left;
-    width: 100%;
+}
+  #left, #right {
+    float: none;
+    width: 90%;
   }
 }
